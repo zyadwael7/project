@@ -1,0 +1,90 @@
+<DOCTYPE HTML>
+<html>
+<head><title>20184960@fue.edu.eg</title>
+<link rel="stylesheet" href="index.css">
+<style>
+    .A{
+  resize: none;
+  width: 616px;
+  height: 141px;
+  margin: 8px;          
+}
+    </style>
+<meta charset="UTF-8">
+</head>
+     <p>
+    <img src= "logo.png"  alt="Fue logo" style="float:right;width:300px;height:55px;"> 
+    </p>
+<body>
+    
+<h1> New Student Application</h1>
+    <form action="" method="post" >
+        <fieldset>
+        <legend>Personal Information</legend>
+        <p>
+        <label>Full Name: </label> 
+        <input type="text" required />          
+        </p>
+        <p>
+        <label>Birthdate: </label> 
+        <input type="date" />  
+        </p>
+        <p>
+        <label>Gender: </label> 
+        <input type="radio" name="r" >
+        <label for="M">Male</label>    
+        <input type="radio" name="r" >
+        <label for="F">Female</label>  
+        </p>
+            <p>
+            <label>Nationality:</label>
+                <input type="text" required> 
+            </p>
+        <label>Personal Picture:</label>
+        <input type="file">
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Contact Information</legend>
+        <p>
+        <label>Email: </label> 
+        <input type="email" required placeholder= "20184960@fue.edu.eg">    
+        </p>
+        <p>
+        <label> Password </label> 
+        <input type= "Password" required placeholder="upper/lower case & numbers only" minlength=8 maxlength=20>
+        </p>
+        <p>
+        <label>Phone: </label> 
+        <input type="tel" name="txtphone" required >  
+    </p>
+        
+ <label>Address:</label>
+         <br/>
+        <textarea rows="5" cols="100" name="txtAddress" class="B" ></textarea>    
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>University Information</legend>
+        <p>
+        <label>Choose Your Faculty: </label>
+        <select>
+        <optgroup label="Faculties"></optgroup>
+        <option></option>    
+        <option>Computer Science</option>
+        <option>Business</option> 
+        <option>Political Science</option>
+        <option>Dentist</option> 
+        <option>Engeineering</option>
+
+        </select>  <br>   
+        </p>    
+           <a href="https://www.fue.edu.eg/contacts" target=_blank> <b> <p style= "color:red">CONTACT US</b> 
+        </fieldset>
+            <br>
+        <Button type="submit" target=_blank>submit</Button> 
+        <Button type="reset">reset</Button>
+
+    </form>
+</body>
+</html>
